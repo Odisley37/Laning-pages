@@ -1,98 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Pagina Principal</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>login</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1 id="inicio">Exemplo de Blog</h1>
-        <hr />
-        <h2>Índice</h2>
-        <ul>
-            <li><a href="#surgimento">Módulo 01 - Primeiros passos do HTML</a>
-            </li>
-            <li><a href="#como-funciona">Como funciona o HTML</a></li>
-            <li><a href="#tags">O que são Tags</a></li>
-        </ul>
-        <h2 id="surgimento">Módulo 01 - Primeiros passos do HTML</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>
-            O HTML (HyperText Markup Language) é uma linguagem de marcação que
-            define a estrutura e o conteúdo das páginas da web. É uma linguagem
-            de texto simples que é usada para descrever a estrutura de uma
-            página da web, usando tags. As tags são usadas para identificar
-            diferentes partes da página da web, como cabeçalhos, parágrafos,
-            imagens e links. O HTML foi desenvolvido pela
-            <strong>World Wide Web Consortium (W3C)</strong>, uma organização
-            internacional que desenvolve padrões para a web. A primeira versão
-            do HTML foi publicada em 1991, e a versão mais recente é o HTML 5,
-            que foi publicado em 2014. O HTML é uma linguagem muito importante
-            para a web, pois é a linguagem usada para criar as páginas da web
-            que vemos todos os dias. É uma linguagem fácil de aprender e usar, e
-            <i>é a linguagem de marcação mais usada no mundo.</i>
-        </p>
-        <p>
-            Aqui estão alguns exemplos de tags HTML: 
-            <ul>
-            <li><strong>html </strong> - Esta tag define o início de um documento HTML.</li>    
-            <li><strong>head </strong> - Esta tag define a cabeçalho do documento HTML.  O cabeçalho é usado para armazenar informações sobre o documento, como o título da página e as palavras-chave.</li>
-            <li><strong>body</strong> - Esta tag define o corpo do documento HTML. O corpo é usado para armazenar o conteúdo da página, como texto, imagens e links.</li> 
-            <li><strong>h1</strong> -Esta tag define um cabeçalho de nível 1.</li> 
-            <li><strong>p</strong> - Esta tag define um parágrafo.</li> 
-            <li><strong>img </strong> - Esta tag insere uma imagem na página. a - Esta tag cria um link.</li>
-        
-        </p>
-        <h2 id="como-funciona">Como Funciona o HTML</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            eius deserunt expedita error quis ratione nostrum nisi reprehenderit
-            quidem harum ducimus necessitatibus sequi ullam nihil alias, placeat
-            rem eligendi nesciunt!xxxxxxxxxxxxxxx
-            cadsjosdjojdosjodjdosjodjsdodsjosdjdsosdjosdjsdosdjosd
-        </p>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-            explicabo vel optio nostrum porro incidunt dicta corporis quisquam
-            omnis, molestias error dolorum nihil ex debitis similique. Voluptate
-            itaque obcaecati illum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            vitae similique ipsam debitis, voluptatum excepturi accusamus labore
-            hic possimus quam, ea iusto, quasi ipsa dignissimos incidunt non a
-            tempora sapiente.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ex
-            ratione consequatur suscipit quas exercitationem optio dignissimos
-            sapiente molestiae ipsum possimus quae perferendis, mollitia omnis
-            praesentium totam voluptatibus voluptatum officiis.
-        </p>
-        <h2 id="tags">O que são Tags</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            eius deserunt expedita error quis ratione nostrum nisi reprehenderit
-            quidem harum ducimus necessitatibus sequi ullam nihil alias, placeat
-            rem eligendi nesciunt!
-        </p>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-            explicabo vel optio nostrum porro incidunt dicta corporis quisquam
-            omnis, molestias error dolorum nihil ex debitis similique. Voluptate
-            itaque obcaecati illum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            vitae similique ipsam debitis, voluptatum excepturi accusamus labore
-            hic possimus quam, ea iusto, quasi ipsa dignissimos incidunt non a
-            tempora sapiente.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ex
-            ratione consequatur suscipit quas exercitationem optio dignissimos
-            sapiente molestiae ipsum possimus quae perferendis, mollitia omnis
-            praesentium totam voluptatibus voluptatum officiis.
-        </p>
-        <h2>Referencias</h2>
+        <div class="main-login">
+            <div class="left-login">
+                <h1>
+                    Faça login,<br />
+                    E entre para o nosso time
+                </h1>
+                <img
+                    src="image1.svg"
+                    class="left-login-image"
+                    alt="image animacao"
+                />
+            </div>
+            <div class="right-login">
+                <div class="card-login">
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input
+                            type="text"
+                            name="usuario"
+                            placeholder="Usuário"
+                        />
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">senha</label>
+                        <input
+                            type="password"
+                            name="usuario"
+                            placeholder="senha"
+                        />
+                        <button class="btn-login">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
